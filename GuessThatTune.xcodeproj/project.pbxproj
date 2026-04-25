@@ -6,13 +6,31 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		94B556C92F9BF1470053F189 /* SpotifyiOS in Frameworks */ = {isa = PBXBuildFile; productRef = 94B556C82F9BF1470053F189 /* SpotifyiOS */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		94B556A22F9BD4770053F189 /* GuessThatTune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessThatTune.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B556B22F9BD5970053F189 /* GuessThatTune-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GuessThatTune-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		94B556B62F9BD73C0053F189 /* Exceptions for "GuessThatTune" folder in "GuessThatTune" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 94B556A12F9BD4770053F189 /* GuessThatTune */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		94B556A42F9BD4770053F189 /* GuessThatTune */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				94B556B62F9BD73C0053F189 /* Exceptions for "GuessThatTune" folder in "GuessThatTune" target */,
+			);
 			path = GuessThatTune;
 			sourceTree = "<group>";
 		};
@@ -23,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94B556C92F9BF1470053F189 /* SpotifyiOS in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -34,6 +53,7 @@
 			children = (
 				94B556A42F9BD4770053F189 /* GuessThatTune */,
 				94B556A32F9BD4770053F189 /* Products */,
+				94B556B22F9BD5970053F189 /* GuessThatTune-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +85,7 @@
 			);
 			name = GuessThatTune;
 			packageProductDependencies = (
+				94B556C82F9BF1470053F189 /* SpotifyiOS */,
 			);
 			productName = GuessThatTune;
 			productReference = 94B556A22F9BD4770053F189 /* GuessThatTune.app */;
@@ -82,6 +103,7 @@
 				TargetAttributes = {
 					94B556A12F9BD4770053F189 = {
 						CreatedOnToolsVersion = 26.2;
+						LastSwiftMigration = 2620;
 					};
 				};
 			};
@@ -94,6 +116,9 @@
 			);
 			mainGroup = 94B556992F9BD4770053F189;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				94B556C72F9BF1470053F189 /* XCLocalSwiftPackageReference "../../Downloads/ios-sdk-5.0.1" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 94B556A32F9BD4770053F189 /* Products */;
 			projectDirPath = "";
@@ -251,14 +276,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3K4J9FWMLG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GuessThatTune/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -266,12 +292,15 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bradshaw.GuessThatTune;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "GuessThatTune-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -283,14 +312,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3K4J9FWMLG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GuessThatTune/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -298,12 +328,14 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bradshaw.GuessThatTune;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "GuessThatTune-Bridging-Header.h";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -332,6 +364,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		94B556C72F9BF1470053F189 /* XCLocalSwiftPackageReference "../../Downloads/ios-sdk-5.0.1" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../Downloads/ios-sdk-5.0.1";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		94B556C82F9BF1470053F189 /* SpotifyiOS */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SpotifyiOS;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 94B5569A2F9BD4770053F189 /* Project object */;
 }

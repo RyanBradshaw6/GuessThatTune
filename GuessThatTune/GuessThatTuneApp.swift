@@ -1,17 +1,14 @@
-//
-//  GuessThatTuneApp.swift
-//  GuessThatTune
-//
-//  Created by Ryan Bradshaw on 4/24/26.
-//
-
 import SwiftUI
 
 @main
 struct GuessThatTuneApp: App {
+
+    @StateObject var spotify = SpotifyAuthManager()
+
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(spotify)
         }
     }
 }
