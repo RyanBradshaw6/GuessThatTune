@@ -28,20 +28,21 @@ SwiftUI animations and transitions
 Pixel Art
 Game Logic Design
 
-Demo Video
+### Demo Video
+<a href="https://youtube.com/shorts/mZcJfm7r4UY?feature=share">
+  <img src="https://img.youtube.com/vi/mZcJfm7r4UY/0.jpg" width="250" />
+</a>
 
-
-App Preview
 ## Screenshots
 
 ### Home Screen
-![Home Screen](images/IMG_5413.png)
+<img src="images/IMG_5413.png" width="250"/>
 
 ### Category Selection
-![Category Selection](images/IMG_5415.png)
+<img src="images/IMG_5415.png" width="250"/>
 
 ### Gameplay
-![Gameplay](images/IMG_5416.png)
+<img src="images/IMG_5416.png" width="250"/>
 
 Contact
 LinkedIn: https://linkedin.com/in/Ryan-Bradshaw
