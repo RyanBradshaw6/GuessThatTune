@@ -13,6 +13,9 @@
 /* Begin PBXFileReference section */
 		94B556A22F9BD4770053F189 /* GuessThatTune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessThatTune.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B556B22F9BD5970053F189 /* GuessThatTune-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GuessThatTune-Bridging-Header.h"; sourceTree = "<group>"; };
+		94B556D92F9EF4050053F189 /* IMG_5413.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_5413.png; sourceTree = "<group>"; };
+		94B556DA2F9EF4050053F189 /* IMG_5415.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_5415.png; sourceTree = "<group>"; };
+		94B556DB2F9EF4050053F189 /* IMG_5416.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_5416.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -51,6 +54,7 @@
 		94B556992F9BD4770053F189 = {
 			isa = PBXGroup;
 			children = (
+				94B556D82F9EF3EB0053F189 /* Images */,
 				94B556A42F9BD4770053F189 /* GuessThatTune */,
 				94B556A32F9BD4770053F189 /* Products */,
 				94B556B22F9BD5970053F189 /* GuessThatTune-Bridging-Header.h */,
@@ -63,6 +67,16 @@
 				94B556A22F9BD4770053F189 /* GuessThatTune.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		94B556D82F9EF3EB0053F189 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				94B556D92F9EF4050053F189 /* IMG_5413.png */,
+				94B556DA2F9EF4050053F189 /* IMG_5415.png */,
+				94B556DB2F9EF4050053F189 /* IMG_5416.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

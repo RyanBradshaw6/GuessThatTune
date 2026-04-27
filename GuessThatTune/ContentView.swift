@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     @State private var showCategories = false
     @State private var selectedPlaylistID: String?
     @EnvironmentObject var auth: SpotifyAuthManager
@@ -10,6 +11,7 @@ struct ContentView: View {
     @State private var rotatingAngle = 0.0
     @State private var showTutorial = false
     @State private var showMenu = false
+    
     
     let categories = [
         Category(name: "Rock", playlistID: "61jNo7WKLOIQkahju8i0hw"),
@@ -25,6 +27,7 @@ struct ContentView: View {
         Category(name: "2010s", playlistID: "67Xzz1bAstFPquDMzMiIKi"),
         Category(name: "Dev's Playlist", playlistID: "0sTpwD8nIpirNZOvGbp4Sx")
     ]
+    
     
     var body: some View {
         
